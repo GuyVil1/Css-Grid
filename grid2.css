@@ -1,0 +1,44 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    min-height: 100vh;
+}
+
+.form{
+    background-color: rgba(127, 255, 212, 0.537);
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+.un{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.deux{ 
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.trois{
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+.quatre{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.cinq{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.six{
+    grid-column: 3;
+    grid-row: 4;
+}
