@@ -1,14 +1,14 @@
-.block > * {
+.grid > * {
   background: #bada55;
   color: #212121;
   font-size: 28px;
   padding: 10px;
 }
 
-.block > *:nth-child(odd) {
+.grid > *:nth-child(odd) {
   background: #c55;
 }
 
-.block {
+.grid {
   /* min-height: 100vh; */
 }
